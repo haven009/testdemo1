@@ -15,11 +15,14 @@ import java.util.Map;
 public class App {
     private Jedis jedis;
 
+    public void testA(){
+        System.out.println("testA");
+    }
     public static void main(String[] args) {
+        //        List<String> testList = new ArrayList<String>();
         Jedis jedis = new Jedis("localhost");
         User user1 = new User(1, "xiaoming", "24");
         User user2 = new User(2, "xiaohong", "24");
-//        List<String> testList = new ArrayList<String>();
         List<Map> testList = new ArrayList<Map>();
         Map<String, Object> testMap1 = new HashMap<String, Object>();
         Map<String, Object> testMap2 = new HashMap<String, Object>();
