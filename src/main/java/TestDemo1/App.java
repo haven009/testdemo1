@@ -18,8 +18,8 @@ public class App {
     public void testAA(){
         System.out.println("testA");
     }
-    public void testB(){
-        System.out.println("testB");
+    public void test(){
+        System.out.println("test");
     }
     public static void main(String[] args) {
         //        List<String> testList = new ArrayList<String>();
