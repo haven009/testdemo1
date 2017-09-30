@@ -18,6 +18,9 @@ public class App {
     public void testAA(){
         System.out.println("testA");
     }
+    public void testB(){
+        System.out.println("testB");
+    }
     public static void main(String[] args) {
         //        List<String> testList = new ArrayList<String>();
         Jedis jedis = new Jedis("localhost");
