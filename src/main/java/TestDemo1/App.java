@@ -15,7 +15,7 @@ import java.util.Map;
 public class App {
     private Jedis jedis;
 
-    public void testA(){
+    public void testAA(){
         System.out.println("testA");
     }
     public static void main(String[] args) {
